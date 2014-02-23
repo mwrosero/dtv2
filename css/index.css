@@ -1,0 +1,551 @@
+body, html{
+    width: 97%;
+    height: 98% !important;
+    background-color: black;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+    overflow: hidden !important;
+}
+
+.ui-body-c, .ui-overlay-c {
+    background-color: transparent !important;
+}
+
+.contenedor{
+    width: 94%;
+    height: 76%;
+    margin:0 auto;
+    margin-top: 20%;
+}
+
+#login-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#olvido-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+#home-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+#fecha-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+#completo-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+#premios-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+#tablas-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+#perfil-page{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+}
+
+#bases-page{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+}
+
+#registro-page{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+}
+
+#internet-page{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    text-align: center;
+}
+
+#btn_ingresar {
+    width: 20%;
+    height: 3%;
+    background-color: gray;
+    margin: 0 auto;
+    }
+
+/*MENU BOTTOM*/
+
+.fixed-footer{
+    position: fixed !important;
+    height: 9%;
+    min-height: 9%;/*13%;*/
+    bottom: 0%;/*-2%;*/
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent !important;
+    background-image: url(../images/bg_menu.jpg) !important;
+}
+
+.bottom_menu img {
+    width: 80% !important;
+}
+
+.menu-ul li, .menu-ul a{
+    border-left: 1px solid black;
+}
+
+.menu-ul li:first-child{
+    border-left: none;
+}
+
+/*HEADER*/
+.fixed-header{
+    width: 100%;
+    height: 9%;
+    min-height: 9%;
+    position: fixed;
+    top: 0px;
+    background-color: transparent;
+    background-image: url(../images/bg_all.jpg);
+    background-size: 100%;
+}
+
+.fixed-header img {
+    margin-top: 0%;
+    width: 100%;
+}
+
+.nada_mas{
+    position: absolute;
+    bottom: 9%;/*12.5%;*/
+    left: 3%;
+    height: 6.5%;
+}
+
+/*FORMULARIOS*/
+#contenido{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+#contenido p input{
+    width: 100%;
+    height: 10% !important;
+    margin: 0 auto;
+    border-radius: 0px;
+    margin-bottom: -2%;
+    background-color: transparent;
+    /*padding: 3%;*/
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #4B4F52;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: white !important;
+}
+
+.porta-imagen{
+    width: 38%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+
+#btn_registrar{
+    float: right;
+    width: 35%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+}
+
+#btn_iniciar{
+    float: right;
+    width: 30%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+}
+
+#btn_enviar{
+    float: right;
+    width: 24%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+}
+
+#filename {
+    /*opacity: 0;*/
+    cursor: pointer;
+    width: 285px;
+    /*display: none;*/
+}
+
+#img-seleccionada{
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input:disabled{
+    background-color: transparent;
+    /*padding: 3%;*/
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #4B4F52;
+    opacity: 1 !important;
+}
+
+#btn_cerrar_sesion{
+    float: right;
+    width: 30%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+    margin-top: 0.8%;
+}
+
+#btn_guardar{
+    display: none;
+    float: right;
+    width: 30%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+#img-perfil{
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.label_page{
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: yellow;
+    font-family: ARIAL;
+}
+
+.label_page_large{
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+    margin-top: -3%;
+}
+
+.label_page_large_2{
+    font-size: 1.2rem;
+}
+
+.label_page_white{
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: white;
+    font-family: ARIAL;
+}
+
+.img_premio{
+    width: 100%;
+}
+
+.img_home{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.box-interna{
+    width: 100%;
+    min-height: 77%;
+    border: 1px solid gray; 
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.contenido_fijo{
+    height: 100% !important;
+}
+
+#fecha_pronostico_fecha{
+    color: white;
+    font-family: arial;
+    font-size: 1.1rem;
+    margin-bottom: -2%;
+    margin-top: 0%;
+}
+
+#canal_pronostico_fecha{
+    font-family: arial;
+    font-size: 1rem;
+    margin-bottom: 5%;
+    color: yellow;
+}
+
+.sep_peq{
+    width: 90%;
+}
+
+.vertical-div{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    height: 60%;
+    /*border: 1px solid red;*/
+}
+
+.vertical-div p{
+    color: white;
+    font-family: arial;
+    font-size: 1rem;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.vertical-div2{
+    height: 20%;
+}
+
+.vertical-div2 img{
+    /*height: 50%;*/
+}
+
+.img_vs{
+    width: 80%
+}
+
+.escudos{
+    width: 100%;
+}
+
+.vertical-div input{
+    width: 50% !important;
+    height: 15% !important;
+    margin: 0 auto !important;
+    margin-top: 20% !important;
+    border-radius: 0px;
+    margin-bottom: -2%;
+    background-color: transparent;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid yellow;
+    text-align: center;
+    font-family: arial;
+    font-size: 1.5rem;
+}
+
+#btn_guardar_pro_fecha{
+    float: right;
+    width: 30%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+    margin-top: 4.8%;
+}
+
+#btn_guardar_pro_completo{
+    float: right;
+    width: 30%;
+    margin-right: -1%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.contenedor-equipos{
+    width: 100%;
+    margin: 0 auto;
+    height: 94%;
+    overflow-y: scroll;
+}
+
+.contenedor-equipos ul{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-equipos ul li{
+    position: relative;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding: 1% !important;
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+.box-interna-scroll{
+    width: 100%;
+    height: 86%;
+    border: 1px solid gray; 
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.contenedor-equipos ul li img{
+    position: absolute;
+    height: 90%;
+    left: 10%;
+}
+
+.contenedor-equipos ul li span{
+    margin-left: 30%;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.bases_leg p{
+    font-family: arial;
+    text-align: justify;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.box-interna-scroll-bases{
+    width: 100%;
+    height: 87%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.img_tabla{
+    width: 100%;
+}
+
+.label_editar{
+    margin-bottom: -2%;
+    font-family: arial;
+    color: #006699;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.login-contenido {
+    margin-top: 40% !important;
+}
+
+#contenido a{
+    text-decoration: none;
+}
+
+.label_olvidar{
+    position: absolute;
+    float: left;
+    color: gray;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+
+.label_nueva{
+    margin-top: 35%;
+    font-family: arial;
+}
+
+.btn_back_ios{
+    position: absolute;
+    left: 0px;
+    width: 15% !important;
+    top: 5%;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) { 
+   /* .fixed-footer{
+        height: 7%;
+        min-height: 7%;
+    }
+    .bottom_menu img{
+        width: 40% !important;
+    }
+    .bases_leg p{
+        font-size: 2.4rem;
+    }
+    .contenedor-equipos ul li{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10%;
+    } 
+    .contenedor-equipos ul li span{
+        font-size: 1.4rem;
+    }
+    #btn_iniciar{
+        width: 15% !important;
+    }
+    .label_nueva{
+        margin-top: 30%;
+        font-family: arial;
+    }*/
+    .bottom_menu img{
+        width: 40% !important;
+    }
+    .img_tabla{
+        width: 80%;
+    }
+}
+
+
